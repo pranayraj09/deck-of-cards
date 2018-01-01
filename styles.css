@@ -1,0 +1,56 @@
+.container{
+    margin-top: 5%;
+}
+
+.eachCard{
+    width: 150px;
+    height: 219px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+#deal{
+    background: linear-gradient(left bottom, deeppink, red);
+}
+
+#diamonds, .Diamonds{
+    width: 73px;
+    height: 88px;
+    background: url(icons.png) 0 84px;
+}
+#hearts, .Hearts{
+    width: 73px;
+    height: 88px;
+    background: url(icons.png) 0 4px;
+}
+#spades, .Spades{
+    width: 73px;
+    height: 88px;
+    background: url(icons.png) 76px 82px;
+}
+#clubs, .Clubs{
+    width: 73px;
+    height: 88px;
+    background: url(icons.png) 76px 4px;
+}
+
+.top{
+    text-align: right;
+    font-size: 25px;
+}
+
+.bottom{
+    text-align: left;
+    font-size: 25px;
+}
+
+.cards img{
+    margin-top: 7%;
+    margin-bottom: 25%;
+    margin-left: 20%;
+}
